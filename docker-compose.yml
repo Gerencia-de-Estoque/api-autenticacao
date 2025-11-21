@@ -1,0 +1,27 @@
+services:
+  api:
+    image: loja-api:1.0
+    build:
+      context: ./springboot/demo     # confirme que o Dockerfile está aqui
+      dockerfile: Dockerfile
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://${DB_HOST:-host.docker.internal}:${DB_PORT:-3307}/dbspringboot?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+      PORT: "8089"                   # seu app usa ${PORT:8089}
+      TZ: UTC
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8089:8089"
+    restart: unless-stopped
+
+  adminer:
+    image: adminer
+    environment:
+      ADMINER_DEFAULT_SERVER: host.docker.internal
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8081:8080"
+    restart: unless-stopped

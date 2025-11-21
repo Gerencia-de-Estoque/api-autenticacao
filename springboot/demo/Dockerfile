@@ -1,0 +1,30 @@
+# syntax=docker/dockerfile:1
+
+# ---------- Stage 1: Build ----------
+FROM maven:3.9.6-eclipse-temurin-17 AS builder
+WORKDIR /app
+COPY pom.xml ./
+RUN mvn -q -B -DskipTests dependency:go-offline
+COPY src ./src
+RUN mvn -q -B -DskipTests clean package
+
+# ---------- Stage 2: Runtime ----------
+FROM eclipse-temurin:17-jre
+WORKDIR /app
+
+# Expose local; no Railway a porta real vem em $PORT
+EXPOSE 8089
+ENV TZ=UTC
+
+# >>> LIMITES DE MEMÓRIA (ESSENCIAL NO RAILWAY FREE)
+# -Xmx256m segura a JVM abaixo de 256 MB; ajuste se precisar.
+# UseSerialGC economiza RAM.
+ENV JAVA_OPTS="-Xms128m -Xmx256m -XX:+UseSerialGC -Dfile.encoding=UTF-8"
+
+COPY --from=builder /app/target/*.jar app.jar
+
+RUN useradd -r -u 1001 appuser && chown appuser:appuser /app
+USER appuser
+
+# Respeita $PORT do Railway; fallback 8089 local
+ENTRYPOINT ["sh","-c","java $JAVA_OPTS -Dserver.port=${PORT:-8089} -jar app.jar"]

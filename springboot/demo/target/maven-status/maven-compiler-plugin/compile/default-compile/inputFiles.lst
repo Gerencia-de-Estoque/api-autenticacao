@@ -1,0 +1,13 @@
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/controller/AuthController.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/config/CorsConfig.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/service/JwtService.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/dto/LoginRequest.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/security/FilialDetails.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/security/FilialDetailsService.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/DemoApplication.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/security/SecurityConfig.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/security/JwtAuthenticationFilter.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/service/AuthService.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/repository/FilialRepository.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/model/FilialEntity.java
+/home/marco/Área de trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/dto/LoginResponse.java

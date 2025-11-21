@@ -1,0 +1,18 @@
+#Thu Nov 20 00:10:48 BRT 2025
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/DemoApplication.java=1761583047000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/controller/AuthController.java=1761614941000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/dto/LoginRequest.java=1761614141000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/dto/LoginResponse.java=1761614929000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/model/FilialEntity.java=1761613864000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/repository/FilialRepository.java=1761614092000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/security/FilialDetails.java=1763594231485
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/security/FilialDetailsService.java=1761615044000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/security/JwtAuthenticationFilter.java=1763588473617
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/security/SecurityConfig.java=1763604434487
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/service/AuthService.java=1761615013000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/api/service/JwtService.java=1761614859000
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/java/com/example/demo/config/CorsConfig.java=1763594186294
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/main/resources/application.properties=1763605082180
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/test/resources/application-test.properties=1763608198983
+/home/marco/\u00C1rea\ de\ trabalho/tppe-final/store-management-dashboard/api-autentic/springboot/demo/src/test/resources/application.properties=1761583047000
+configuration*?=F536708DA6896330EA21D30B8398D2E320E5F4AD

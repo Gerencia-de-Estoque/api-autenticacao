@@ -1,0 +1,19 @@
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Build output
+target/
+
+# IDE/editor artifacts
+.idea/
+.vscode/
+*.iml
+
+# Git metadata
+.git
+.gitignore
+
+# Misc
+Dockerfile.*

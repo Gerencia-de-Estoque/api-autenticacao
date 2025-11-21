@@ -1,0 +1,16 @@
+com/example/demo/api/model/FilialEntity.class
+com/example/demo/api/dto/LoginResponse.class
+com/example/demo/api/controller/AuthController.class
+com/example/demo/api/security/FilialDetailsService.class
+com/example/demo/api/service/JwtService$JwtClock.class
+com/example/demo/api/dto/LoginRequest.class
+com/example/demo/api/repository/FilialRepository.class
+com/example/demo/api/security/FilialDetails.class
+com/example/demo/DemoApplication.class
+com/example/demo/api/model/FilialEntity$FilialEntityBuilder.class
+com/example/demo/api/security/JwtAuthenticationFilter.class
+com/example/demo/api/service/JwtService.class
+com/example/demo/config/CorsConfig.class
+com/example/demo/api/security/SecurityConfig.class
+com/example/demo/api/service/AuthService.class
+com/example/demo/config/CorsConfig$Configurer.class

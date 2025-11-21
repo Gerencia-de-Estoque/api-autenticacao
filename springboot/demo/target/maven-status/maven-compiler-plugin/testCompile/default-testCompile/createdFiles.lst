@@ -1,0 +1,15 @@
+com/example/demo/api/service/AuthServiceTest.class
+com/example/demo/api/service/JwtServiceTest$GeracaoToken.class
+com/example/demo/api/service/AuthServiceTest$AutenticacaoSucesso.class
+com/example/demo/DemoApplicationTests.class
+com/example/demo/api/service/AuthServiceTest$CasosDeBorda.class
+com/example/demo/api/service/JwtServiceTest$ValidacaoToken.class
+com/example/demo/api/controller/AuthControllerTest.class
+com/example/demo/api/service/JwtServiceTest$TratamentoErros.class
+com/example/demo/api/service/JwtServiceTest$ExtracaoClaims.class
+com/example/demo/api/controller/AuthControllerTest$ValidacaoEntrada.class
+com/example/demo/api/service/AuthServiceTest$AutenticacaoFalha.class
+com/example/demo/api/AuthIntegrationTest.class
+com/example/demo/api/service/JwtServiceTest$DiferentesFiliais.class
+com/example/demo/api/service/JwtServiceTest.class
+com/example/demo/api/controller/AuthControllerTest$LoginEndpoint.class
